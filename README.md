@@ -31,13 +31,6 @@ All the resources shoulded be placed under ```./dataset/mydata```, for example
 ...
 ```
 
-## Pre-trained Model
-[[Model]](https://pan.baidu.com/s/1cIIppXNFwVYEJGyG8IK-zw) with password thle
-```python
-./checkpoint/train/epoch_best.pth
-
-```
-
 ## Testing
 ```python
 CUDA_VISIBLE_DEVICES=GPU_NUM python main.py --batch_size=16 --STN --exp_name EXP_NAME --text_focus --resume YOUR_MODEL --test --test_data_dir ./dataset/mydata/test
